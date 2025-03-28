@@ -38,3 +38,6 @@ For a hypothetical binary classification task where the model underfits (e.g., a
   - Y-axis: Score (0 to 1).
   - Training Score Curve: Starts at 0.6 (100 data points), increases gradually to 0.65 (1000 data points).
   - Validation Score Curve: Starts at 0.58 (100 data points), increases gradually to 0.63 (1000 data points), remaining slightly below the training score with a small, consistent gap (indicating low variance but high bias).
+- **Visualization**:
+  ![Underfitting Plot](please check the underfitting_plot.png in docs directory)  
+  *Figure 1: Training and validation scores for an underfitting model as a function of training instances size.*
