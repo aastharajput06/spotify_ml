@@ -24,9 +24,9 @@ This repository contains the code and reports for Assignment 1 of the Machine Le
 ## Requirements
 - Python 3.8 or higher
 - Libraries:
-  - `pandas` (for data loading and preprocessing)
-  - `numpy` (for numerical computations)
-  - `matplotlib` (for plotting)
+  - `pandas==2.2.1` (for data loading and preprocessing)
+  - `numpy==1.26.4` (for numerical computations)
+  - `matplotlib==3.8.3` (for plotting)
 
 Install the required libraries:
 ```bash
