@@ -44,7 +44,8 @@ The goal of this task is to predict the number of streams for songs in the "Most
 - **Convergence**: Tuning the learning rate and number of epochs to ensure gradient descent converged properly.
 
 ## Results
-- **Performance**: The model achieved an MSE on the test set (exact value depends on your initial run for Question 1, not shown in the latest output). The R² score indicates how well the model explains the variance in the target variable.
+- **Performance**: The model achieved an MSE of 9.634022068056562e+16 on the test set and an R² score of 0.6462522104076616, indicating that the model explains 64% of the variance in the target variable. The large MSE suggests that normalizing the target variable (`streams`) could improve performance.
+
 - **Visualization**:
   ![Predicted vs. Actual](please see the predicted_vs_actual.png in docs dir)  
   *Figure 1: Predicted vs. actual streams on the test set.*
