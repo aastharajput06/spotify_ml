@@ -47,7 +47,7 @@ The goal of this task is to predict the number of streams for songs in the "Most
 - **Performance**: The model achieved an MSE of 9.634022068056562e+16 on the test set and an R² score of 0.6462522104076616, indicating that the model explains 64% of the variance in the target variable. The large MSE suggests that normalizing the target variable (`streams`) could improve performance.
 
 - **Visualization**:
-  ![Predicted vs. Actual](please see the predicted_vs_actual.png in docs dir)  
+ ![predicted vs actual](predicted_vs_actual.png)   
   *Figure 1: Predicted vs. actual streams on the test set.*
 
 ## Bias-Variance Tradeoff and Model Selection
